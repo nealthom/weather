@@ -1,0 +1,26 @@
+
+
+body{
+	color:black;
+	background-color: black;
+	background-image: url(default.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .5;
+	
+}
+#temp{
+	padding: 1em;
+	background-color:white;
+	position: absolute;
+	top: 50%;
+	left: 33%;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 50px;
+}
+
+#meas:hover{
+
+	color:blue;
+}
