@@ -42,15 +42,15 @@ function weather(response){
 	temp = Math.ceil(response.currently.temperature);
 	icon = response.currently.icon;
 	switch(icon){
-	case "clear-night": document.body.style.backgroundImage="url('https://i.imgsafe.org/6f9a44516f.jpeg')";
+	case "clear-night": document.body.style.backgroundImage="url('clearnight.jpeg')";
 		break;
-	case "clear-day": document.body.style.backgroundImage="url('https://i.imgsafe.org/6f98835022.jpg')";
+	case "clear-day": document.body.style.backgroundImage="url('clearday.jpg')";
 		break;
-	case "rain": document.body.style.backgroundImage="url('https://i.imgsafe.org/6f9dd31397.jpg')";
+	case "rain": document.body.style.backgroundImage="url('rain.jpg')";
 		break;
-	case "partly-cloudy-day": document.body.style.backgroundImage="url('https://i.imgsafe.org/6f9f2735b8.jpeg')";
+	case "partly-cloudy-day": document.body.style.backgroundImage="url('ptcloudyday.jpeg')";
 		break;
-	case "partly-cloudy-night": document.body.style.backgroundImage="url('https://i.imgsafe.org/6fa0fc1f4b.jpeg')";
+	case "partly-cloudy-night": document.body.style.backgroundImage="url('ptcloudynight.jpeg')";
 		break;
 	
 
@@ -85,6 +85,5 @@ function myFunction(){
 	}
 	
 }
-
 
 
